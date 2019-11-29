@@ -1,5 +1,7 @@
 # String Calculator katas in Scala 
 
+[Rules](Rules.md) 
+
 [Roy Osherove](http://osherove.com/tdd-kata-1/)
 
 The following is a TDD Kata- an exercise in coding, refactoring and test-first, that you should apply daily for at least 15 minutes (I do 30).
