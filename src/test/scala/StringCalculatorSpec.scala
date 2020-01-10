@@ -22,6 +22,11 @@ class StringCalculatorSpec extends FlatSpec with Matchers {
     calculate("1,2,3") should equal(6)
   }
 
+
+  it should "sum numbers separated by break line" in {
+    calculate("1\n2") should equal(3)
+  }
+
   it should "sum numbers separated by break line character and commas" in {
     calculate("1\n2,3") should equal(6)
   }
