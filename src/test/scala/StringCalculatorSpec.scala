@@ -21,4 +21,8 @@ class StringCalculatorSpec extends FlatSpec with Matchers {
   it should "be sum two numbers" in {
     calculate("1,2") should equal(3)
   }
+
+  it should "be sum three numbers" in {
+    calculate("1,2,3") should equal(6)
+  }
 }
